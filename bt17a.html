@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai17a</title>
+</head>
+
+<body>
+    <div style="background-color:#ffd078;">
+        <h1 style="text-align: center;">Survey Form</h1>
+        <p style="margin-left: 200px;">If you are interested in purchasing one or more of our products, before ordering please complete<br>some or all of the flolowing survey for our marketing department. Answering any question is<br>optional, and all information will be kept strictly
+            confidential. Thank you very much for your time!</be>
+        </p>
+        <ol>
+            <li>What is your name?<br>
+                <input type="text"></li>
+            <li>What is your date of birth?<br> Month:
+                <input type="month"> Date:<input type="date"> Year:<input type="number"></li>
+            <li>What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?<br>
+                <table>
+                    <tr>
+                        <td><label for="emailBody">Message</label></td>
+                        <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2">Number/P.O. Box/Route:
+Street/Avenue/Road:  
+City:
+State/Zip: 
+                        </textarea></td>
+                    </tr>
+                </table>
+            </li>
+            <li>What is your email address?<br>
+                <Input type="email">
+            </li>
+            <li>Have you viewed our online product catalog?<br>
+                <input type="radio" name="gender">Yes <input type="radio" name="gender">No</li>
+            <li>If so, what product(s), besides the one you are ordering, might you be interested in pruchasing in the future? (Check all that apply.)<br>
+                <input name="gender" type="checkbox">VCR<br>
+                <input name="gender" type="checkbox">Big Screen TV<br>
+                <input name="gender" type="checkbox">Audio Equpment<br>
+                <input name="gender" type="checkbox">Video Equipment<br>
+                <input name="gender" type="checkbox">Camera Equipment<br>
+                <input name="gender" type="checkbox">Other <input type="search" value="Please List:"></li>
+            <li>Do you have any questions, comments or suggestions before proceeding to the Order From?<br>
+                <li>What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?<br>
+                    <table>
+                        <tr>
+                            <td><label for="emailBody">Message</label></td>
+                            <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2">Your Input:
+                            </textarea></td>
+                        </tr>
+                    </table>
+                </li>
+        </ol>
+        <div style="text-align: center;">
+            <input type="button" value="Send Form"> <input type="button" value="Clear Form">
+        </div>
+    </div>
+</body>
+
+</html>
